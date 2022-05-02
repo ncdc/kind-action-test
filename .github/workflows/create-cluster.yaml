@@ -25,3 +25,5 @@ jobs:
           find .
           echo 'kubectl'
           kubectl config view
+          echo 'DOT KUBE'
+          find ~/.kube
