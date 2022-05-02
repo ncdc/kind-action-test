@@ -15,7 +15,13 @@ jobs:
     steps:
       - name: Kubernetes KinD Cluster
         uses: container-tools/kind-action@v1
-      - run: |-
+      - name: Debugging
+        run: |-
+          echo 'Getting pwd'
           pwd
+          echo 'Env vars'
           env|sort
+          echo 'Find'
           find .
+          echo 'kubectl'
+          kubectl config view
