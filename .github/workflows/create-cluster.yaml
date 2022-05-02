@@ -16,6 +16,6 @@ jobs:
       - name: Kubernetes KinD Cluster
         uses: container-tools/kind-action@v1
       - run: |-
-        pwd
-        env|sort
-        find .
+          pwd
+          env|sort
+          find .
