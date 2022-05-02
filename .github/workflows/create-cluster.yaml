@@ -10,6 +10,7 @@ on:
 
 jobs:
   create-cluster:
+    name: create-cluster
     runs-on: ubuntu-latest
     steps:
       - name: Kubernetes KinD Cluster
