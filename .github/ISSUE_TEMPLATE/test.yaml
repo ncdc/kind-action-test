@@ -7,7 +7,7 @@ body:
   - type: textarea
     attributes:
       label: Overview
-      placeholder: |
+      value: |
         At 11am Eastern, 8am Pacific, 3pm UTC; [find your time](https://www.timeanddate.com/worldclock/converter.html?iso=20210518T150000&p1=1440&p2=4826&p3=234&p4=195)
 
         Video call link: https://meet.google.com/mpd-cypd-sdp
